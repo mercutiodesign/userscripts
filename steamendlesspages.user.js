@@ -3,6 +3,7 @@
 // @namespace  SteamEndlessPages
 // @version    0.2
 // @match      http://steamcommunity.com/market/search*
+// @description Keeps previous pages visible in the steam market.
 // ==/UserScript==
 
 var $ = $J;
