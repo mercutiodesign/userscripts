@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       SteamEndlessPages
 // @namespace  SteamEndlessPages
-// @version    0.1
+// @version    0.2
 // @match      http://steamcommunity.com/market/search*
 // ==/UserScript==
 
