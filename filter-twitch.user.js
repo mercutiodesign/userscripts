@@ -4,8 +4,8 @@
 // @version      1.3.4
 // @description  Allows for easy filtering of the twitch directory listing
 // @icon         https://github.githubassets.com/pinned-octocat.svg
-// @updateURL    https://raw.githubusercontent.com/mercutiodesign/userscripts/master/filter-twitch.js
-// @downloadURL  https://raw.githubusercontent.com/mercutiodesign/userscripts/master/filter-twitch.js
+// @updateURL    https://raw.githubusercontent.com/mercutiodesign/userscripts/master/filter-twitch.user.js
+// @downloadURL  https://raw.githubusercontent.com/mercutiodesign/userscripts/master/filter-twitch.user.js
 // @match        https://www.twitch.tv/*
 // @grant GM_setValue
 // @grant GM_getValue
