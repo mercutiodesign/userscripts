@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Filter Games from Twitch Listing
 // @namespace    filter.twitch.com
-// @version      1.3.4
+// @version      1.3.5
 // @description  Allows for easy filtering of the twitch directory listing
 // @icon         https://github.githubassets.com/pinned-octocat.svg
 // @updateURL    https://raw.githubusercontent.com/mercutiodesign/userscripts/master/filter-twitch.user.js
@@ -42,11 +42,7 @@ function addFavorite(channel) {
 
 function loadFavorites() {
   // expanded sidebar
-  document.querySelectorAll('a[data-a-target="followed-channel"]')
-    .forEach(addFavorite);
-
-  // collapsed sidebar
-  document.querySelectorAll('div[data-test-selector="side-nav-card-collapsed"] > a')
+  document.querySelectorAll('a[data-test-selector="followed-channel"]')
     .forEach(addFavorite);
 }
 
